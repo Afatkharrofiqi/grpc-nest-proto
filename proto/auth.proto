@@ -32,7 +32,7 @@ message LoginResponse {
 }
 
 // Validate
-message ValidateMessage {
+message ValidateRequest {
     string token = 1;
 }
 
